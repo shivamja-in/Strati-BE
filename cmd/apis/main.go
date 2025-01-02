@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	logger := telemetry.Telemetry()
+	logger := telemetry.Telemetry("../logs/server.log")
 
 	server := gin.New()
 	server.Use(ginMiddlewares.GinLoggerMiddleware(logger), ginMiddlewares.GinRecoveryMiddleware(logger))

@@ -63,6 +63,8 @@ github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102080119-43adaecb582
 github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102080119-43adaecb5825/go.mod h1:AxywFT/UJzVLXcbXYACZviL6uBrRHWUauTZ6OQjBjMU=
 github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102083039-a27f1bd7721e h1:nnS38x9RS5CZYyhY50AhSEuLq4ij1AxJrk326uliaGU=
 github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102083039-a27f1bd7721e/go.mod h1:AxywFT/UJzVLXcbXYACZviL6uBrRHWUauTZ6OQjBjMU=
+github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102084526-c45a7fc79286 h1:8Z2RlaqGYFjScuqgFUF10MD4tVBDRhGoguvafVlacEo=
+github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102084526-c45a7fc79286/go.mod h1:AxywFT/UJzVLXcbXYACZviL6uBrRHWUauTZ6OQjBjMU=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
 github.com/stretchr/objx v0.5.0/go.mod h1:Yh+to48EsGEfYuaHDzXPcE3xhTkx73EhmCGUpEOglKo=
