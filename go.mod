@@ -5,7 +5,7 @@ go 1.23.4
 require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/rs/zerolog v1.33.0
-	github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102083039-a27f1bd7721e
+	github.com/shivamja-in/strati-be/pkg/telemetry v0.0.0-20250102084526-c45a7fc79286
 )
 
 require (
