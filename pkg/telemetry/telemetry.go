@@ -14,7 +14,7 @@ import (
 var logger zerolog.Logger
 var once sync.Once
 
-func Telemetry() zerolog.Logger {
+func Telemetry(logs_path string) zerolog.Logger {
 	once.Do(func() {
 		var output io.Writer = zerolog.ConsoleWriter{
 			Out:        os.Stdout,
@@ -23,7 +23,7 @@ func Telemetry() zerolog.Logger {
 
 		if os.Getenv("APP_ENV") != "development" {
 			fileLogger := &lumberjack.Logger{
-				Filename:   "demo.log",
+				Filename:   logs_path,
 				MaxSize:    5,
 				MaxBackups: 10,
 				MaxAge:     14,
